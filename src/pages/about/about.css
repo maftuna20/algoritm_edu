@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.App {
+    width: 100%;
+    height: 2400px;
+    background: rgb(14, 14, 14);
+}
+
+.texts {
+    color: white;
+    padding: 100px 0px 200px 450px;
+
+}
+
+.big-text {
+    width: 500px;
+    height: 200px;
+    /* text-align: center; */
+}
+
+.big-text2 {
+    width: 520px;
+    height: 200px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -80px;
+}
+
+.button2 {
+    width: 200px;
+    height: 50px;
+    background: rgba(255, 190, 0, 1);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 190, 0, 1);
+}
+
+.headline {
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.banner1 {
+    width: 90%;
+    height: 350px;
+    color: white;
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.imgs1 {
+    width: 300px;
+    height: 400px;
+
+}
+
+.imgs1>img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.imgs1>.h2-1 {
+    width: 320px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.account1 {
+    width: 350px;
+    height: 50px;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+
+.p1{
+    color: lightgrey;
+}
+
+
+.imgs1>img:hover{
+    width:310px;
+    height: 150px;
+    transition:1s;
+}
+.banner2{
+    width: 90%;
+    height: 600px;
+    color: white;
+ 
+}
+.carts{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.carts > .card{
+    width: 300px;
+    height: 450px;
+background: black;
+text-align: center;
+}
+.card > img{
+    width: 100%;
+    height: 260px;
+    
+}
+.little{
+    color: lightgray;
+    margin-left: 10px;
+}
+.card> h2{
+    margin-left: 40px;
+}
+.card-button{
+    width: 100px;
+    height: 30px;
+    background: rgba(255, 190, 0, 1);
+border-radius: 5px;
+border: none;
+margin-left: 10px;
+}
+.banner2 > h1{
+    margin-left: 150px;
+}
+
+.card> img:hover{
+    width: 300px;
+    height: 277px;
+    transition: 1s;
+}
+
+
+
+
+.banner3{
+    width: 1100px;
+    height: 450px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+}
+.banner3 > h1{
+text-align: center;
+}
+.box{
+    display: flex;
+}
+.email{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.email > input{
+width: 350px;
+height: 35px;
+font-size: 18px;
+}
+.email > p{
+    font-size: 20px;
+}
+
+.email > button{
+    width: 350px;
+    height: 35px;
+    background: rgba(255, 190, 0, 1);
+border: none;
+font-size: 15px;
+border-radius: 5px;
+margin-top: 15px;
+}
+.email2{
+    width: 2px;
+    height: 350px;
+    background: white;
+    margin-left: 100px;
+}
+
+.text-h1-p{
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.footer{
+    width: 100%;
+    height: 230px;
+    background: black;
+    margin-top: 300px;
+}
