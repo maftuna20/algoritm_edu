@@ -121,11 +121,11 @@ function About() {
         <div className="box">
           <div className="email">
             <p>Ваше имя</p>
-            <input type="text" placeholder="имя" />
+            <input type="text" placeholder=" имя" />
 
             <p>Номер телефона</p>
 
-            <input type="text" placeholder="+998" />
+            <input type="text" placeholder=" +998" />
              <br />
             <button className="b-cls">Отправить</button>
           </div>
